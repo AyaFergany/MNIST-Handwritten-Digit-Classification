@@ -10,9 +10,8 @@ The objective of the support vector machine algorithm is to find a hyperplane in
 
 ![image](https://user-images.githubusercontent.com/91394241/217568365-cc70806a-ad5a-42a9-b6ab-49ab0736a692.png)![image](https://user-images.githubusercontent.com/91394241/217568422-ab47771b-2c36-4a8f-a66a-a9ae689af29f.png)
 
-
-
-Possible hyperplanes
+                                     Possible hyperplanes
+                                  
 To separate the two classes of data points, there are many possible hyperplanes that could be chosen. Our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes. Maximizing the margin distance provides some reinforcement so that future data points can be classified with more confidence.
 
 Hyperplanes and Support Vectors

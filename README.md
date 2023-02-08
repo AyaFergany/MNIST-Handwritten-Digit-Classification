@@ -4,18 +4,33 @@ Machine Learning Project Using Decision Tree Classifier, Support Vector Classifi
 # Simple introduction to logistic regression
 Before we dive into understanding logistic regression, let us start with some basics about the different types of machine learning algorithms.
 
-@ What are the differences between supervised learning, unsupervised learning & reinforcement learning?
+ What are the differences between supervised learning, unsupervised learning & reinforcement learning?
 Machine learning algorithms are broadly classified into three categories - supervised learning, unsupervised learning, and reinforcement learning.
 
 Supervised Learning - Learning where data is labeled and the motivation is to classify something or predict a value. Example: Detecting fraudulent transactions from a list of credit card transactions.
+
 Unsupervised Learning - Learning where data is not labeled and the motivation is to find patterns in given data. In this case, you are asking the machine learning model to process the data from which you can then draw conclusions. Example: Customer segmentation based on spend data.
+
 Reinforcement Learning - Learning by trial and error. This is the closest to how humans learn. The motivation is to find optimal policy of how to act in a given environment. The machine learning model examines all possible actions, makes a policy that maximizes benefit, and implements the policy(trial). If there are errors from the initial policy, apply reinforcements back into the algorithm and continue to do this until you reach the optimal policy. Example: Personalized recommendations on streaming platforms like YouTube.
 
 What are the two types of supervised learning?
+
 As supervised learning is used to classify something or predict a value, naturally there are two types of algorithms for supervised learning - classification models and regression models.
 
 Classification model - In simple terms, a classification model predicts possible outcomes. Example: Predicting if a transaction is fraud or not.
 Regression model - Are used to predict a numerical value. Example: Predicting the sale price of a house.
+
+# What is logistic regression?
+Logistic regression is an example of supervised learning. It is used to calculate or predict the probability of a binary (yes/no) event occurring. An example of logistic regression could be applying machine learning to determine if a person is likely to be infected with COVID-19 or not. Since we have two possible outcomes to this question - yes they are infected, or no they are not infected - this is called binary classification.
+
+In this imaginary example, the probability of a person being infected with COVID-19 could be based on the viral load and the symptoms and the presence of antibodies, etc. Viral load, symptoms, and antibodies would be our factors (Independent Variables), which would influence our outcome (Dependent Variable).
+
+How is logistic regression different from linear regression?
+In linear regression, the outcome is continuous and can be any possible value. However in the case of logistic regression, the predicted outcome is discrete and restricted to a limited number of values.
+
+For example, say we are trying to apply machine learning to the sale of a house. If we are trying to predict the sale price based on the size, year built, and number of stories we would use linear regression, as linear regression can predict a sale price of any possible value. If we are using those same factors to predict if the house sells or not, we would logistic regression as the possible outcomes here are restricted to yes or no.
+
+Hence, linear regression is an example of a regression model and logistic regression is an example of a classification model.
 
 # Introduction for Support Vector Classifier
 Support vector machine is highly preferred by many as it produces significant accuracy with less computation power. Support Vector Machine, abbreviated as SVM can be used for both regression and classification tasks. But, it is widely used in classification objectives.
@@ -94,3 +109,5 @@ https://towardsdatascience.com/support-vector-machine-introduction-to-machine-le
 https://en.wikipedia.org/wiki/Decision_tree_learning
 
 https://www.simplilearn.com/tutorials/machine-learning-tutorial/random-forest-algorithm
+
+https://www.capitalone.com/tech/machine-learning/what-is-logistic-regression/

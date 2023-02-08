@@ -1,6 +1,22 @@
 # MNIST-Handwritten-Digit-Classification
 Machine Learning Project Using Decision Tree Classifier, Support Vector Classifier, Logistic Regression, Random Forest Classifier
 
+# Simple introduction to logistic regression
+Before we dive into understanding logistic regression, let us start with some basics about the different types of machine learning algorithms.
+
+@ What are the differences between supervised learning, unsupervised learning & reinforcement learning?
+Machine learning algorithms are broadly classified into three categories - supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised Learning - Learning where data is labeled and the motivation is to classify something or predict a value. Example: Detecting fraudulent transactions from a list of credit card transactions.
+Unsupervised Learning - Learning where data is not labeled and the motivation is to find patterns in given data. In this case, you are asking the machine learning model to process the data from which you can then draw conclusions. Example: Customer segmentation based on spend data.
+Reinforcement Learning - Learning by trial and error. This is the closest to how humans learn. The motivation is to find optimal policy of how to act in a given environment. The machine learning model examines all possible actions, makes a policy that maximizes benefit, and implements the policy(trial). If there are errors from the initial policy, apply reinforcements back into the algorithm and continue to do this until you reach the optimal policy. Example: Personalized recommendations on streaming platforms like YouTube.
+
+What are the two types of supervised learning?
+As supervised learning is used to classify something or predict a value, naturally there are two types of algorithms for supervised learning - classification models and regression models.
+
+Classification model - In simple terms, a classification model predicts possible outcomes. Example: Predicting if a transaction is fraud or not.
+Regression model - Are used to predict a numerical value. Example: Predicting the sale price of a house.
+
 # Introduction for Support Vector Classifier
 Support vector machine is highly preferred by many as it produces significant accuracy with less computation power. Support Vector Machine, abbreviated as SVM can be used for both regression and classification tasks. But, it is widely used in classification objectives.
 

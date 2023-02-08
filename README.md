@@ -74,5 +74,7 @@ Bagging: From the principle mentioned above, we can understand Random forest use
 
 # Sources 
 https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
+
 https://en.wikipedia.org/wiki/Decision_tree_learning
+
 https://www.simplilearn.com/tutorials/machine-learning-tutorial/random-forest-algorithm

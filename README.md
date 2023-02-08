@@ -16,8 +16,10 @@ To separate the two classes of data points, there are many possible hyperplanes 
 
 Hyperplanes and Support Vectors
 
-![image](https://user-images.githubusercontent.com/91394241/217568473-1066a5b8-435c-446e-9e2a-719673e3230f.png)![image](https://user-images.githubusercontent.com/91394241/217568508-39145136-a501-4aad-b8b0-911c6b00277a.png)
-
+![image](https://user-images.githubusercontent.com/91394241/217568473-1066a5b8-435c-446e-9e2a-719673e3230f.png)
 
 
 Hyperplanes in 2D and 3D feature space
+
+
+Hyperplanes are decision boundaries that help classify the data points. Data points falling on either side of the hyperplane can be attributed to different classes. Also, the dimension of the hyperplane depends upon the number of features. If the number of input features is 2, then the hyperplane is just a line. If the number of input features is 3, then the hyperplane becomes a two-dimensional plane. It becomes difficult to imagine when the number of features exceeds 3.

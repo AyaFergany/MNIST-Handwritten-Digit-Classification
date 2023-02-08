@@ -37,9 +37,9 @@ In decision analysis, a decision tree can be used to visually and explicitly rep
 # Introduction for Random Forest Classifier
 
 Working of Random Forest Algorithm
-Working_of_RF_1.
+![image](https://user-images.githubusercontent.com/91394241/217578326-6c0062cb-55e8-4487-a9fa-9d377170ad45.png)
 
-IMAGE COURTESY: javapoint
+                       IMAGE COURTESY: javapoint
 
 The following steps explain the working Random Forest Algorithm:
 
@@ -55,11 +55,13 @@ This combination of multiple models is called Ensemble. Ensemble uses two method
 
 Bagging: Creating a different training subset from sample training data with replacement is called Bagging. The final output is based on majority voting. 
 Boosting: Combing weak learners into strong learners by creating sequential models such that the final model has the highest accuracy is called Boosting. Example: ADA BOOST, XG BOOST. 
-Working_of_RF_2.
+
+![image](https://user-images.githubusercontent.com/91394241/217578457-6af85ca9-5a62-481b-b369-69831228ebcb.png)
+
 
 Bagging: From the principle mentioned above, we can understand Random forest uses the Bagging code. Now, let us understand this concept in detail. Bagging is also known as Bootstrap Aggregation used by random forest. The process begins with any original random data. After arranging, it is organised into samples known as Bootstrap Sample. This process is known as Bootstrapping.Further, the models are trained individually, yielding different results known as Aggregation. In the last step, all the results are combined, and the generated output is based on majority voting. This step is known as Bagging and is done using an Ensemble Classifier.
 
-Working_of_RF_3
+![image](https://user-images.githubusercontent.com/91394241/217578552-aeba14e4-0d88-4074-b5d8-8a82d8498472.png)
 
 
 

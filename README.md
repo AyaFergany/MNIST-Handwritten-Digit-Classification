@@ -37,9 +37,11 @@ In decision analysis, a decision tree can be used to visually and explicitly rep
 # Introduction for Random Forest Classifier
 
 Working of Random Forest Algorithm
+
+
 ![image](https://user-images.githubusercontent.com/91394241/217578326-6c0062cb-55e8-4487-a9fa-9d377170ad45.png)
 
-                       IMAGE COURTESY: javapoint
+                           IMAGE COURTESY: javapoint
 
 The following steps explain the working Random Forest Algorithm:
 

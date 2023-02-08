@@ -1,7 +1,7 @@
 # MNIST-Handwritten-Digit-Classification
 Machine Learning Project Using Decision Tree Classifier, Support Vector Classifier, Logistic Regression, Random Forest Classifier
 
-# Introduction
+# Introduction for Support Vector Classifier
 Support vector machine is highly preferred by many as it produces significant accuracy with less computation power. Support Vector Machine, abbreviated as SVM can be used for both regression and classification tasks. But, it is widely used in classification objectives.
 
 What is Support Vector Machine?
